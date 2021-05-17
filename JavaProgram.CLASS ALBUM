@@ -1,0 +1,170 @@
+//First Program
+import javax.swing.util.ArraysList
+
+/**
+
+* A class that represents an album object.
+*/
+
+public classs Album implements comparamble
+{
+
+   private string artistname;
+   private string albumName
+   private ArrayList<Track> tracks;
+
+
+   /**
+   *An , an album object has an artist
+   *@param artistname whoever wrote the album
+   *@param albumName the album name.
+   *@param tracks an ArrayList of tracks
+   */
+
+   public Album(String artistname, String albumName
+   {
+
+     this .artistname = artistname.topUpperCase();
+     this.albumname = albumname.topUpperCase();
+     this.track = track;
+
+}
+
+/**
+
+  *gets the album name.
+  *@return the album name.
+  */
+  public String getAlbum()
+  {
+
+     return albumname;
+
+     }
+     /**gets the artist of my album.
+     *@Return the artist of my album.
+     */
+     public String getArtist()
+     {
+
+       return artistname()
+
+    }
+
+    /**
+
+    *gets the track of my album.
+    *@return the truck of my album
+    */
+    public ArrayList<Track>getTracks()
+    {
+       return tracks;
+
+    }
+
+    /**
+    *Return our album object in the form of
+    *@param albumFirst
+    *true if we want to dispaly the album name of my album project first.
+    *false if we want to Display the artist of my album project first.
+    @return the album as a string
+    */
+    public String toString(boolean albumFirst)
+    {
+
+        String name = "", tittle = "",
+
+        for(Track t : tracks)
+        }
+
+         tittle = t.getName();
+         if((getName()).lenght) > 21
+         tittle = tittle.subscribe
+
+         name = nmme + String.format
+
+    }
+
+       if( albumFirst)
+
+         returns String.format ("% -30 + "% 21" = "%,albumName,artistName,names)
+
+     else
+
+       return String.format( "% -21" = "%30s" = artistName,albumName,names)
+
+    }
+
+      /**
+      * compare two albums
+      @ return (to see Strind methode)
+      */
+      @overide
+      public int compareTo(object 0)
+      {
+
+        Album otherAlbum = (Album) 0,
+
+        return albumName .compareTo(otherAlbum.albumName);
+
+        }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+}
+
